@@ -1,0 +1,71 @@
+# Private keys
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+
+# SSH
+id_rsa
+id_rsa.pub
+id_dsa
+id_ecdsa
+id_ed25519
+.ssh/
+
+# GPG
+*.gpg
+*.asc
+*.pgp
+.gnupg/
+
+# AWS
+.aws/credentials
+.aws/config
+
+# Kubernetes
+.kube/config
+
+# Docker
+.docker/config.json
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Python
+.env
+.venv/
+env/
+venv/
+*.env
+
+# Node.js
+.env.local
+.env.*.local
+.npmrc
+
+# Ruby
+.bundle/
+config/master.key
+config/credentials.yml.enc
+
+# Java
+*.jks
+*.keystore
+*.truststore
+
+# Misc
+secrets.yml
+secrets.json
+*.secrets
+*.credentials
+*.vault
+vault-password.txt
+
+# Ignore editor swap files
+*.swp
